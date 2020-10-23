@@ -1,0 +1,16 @@
+en:
+  activerecord:
+    models:
+      spree/home_section:
+        one: Home Section
+        other: Home Sections
+    attributes:
+      spree/home_section:
+        title: Title
+  spree:
+    home_section_menu_name: Homepage
+    back_to_home_sections_list: Back To Sections List
+    edit_home_section: Edit Section
+    new_home_section: New Section
+    product_placeholder: Choose a product
+
