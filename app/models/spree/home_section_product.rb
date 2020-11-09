@@ -3,11 +3,6 @@ module Spree
     acts_as_list scope: :home_section
 
     belongs_to :home_section, class_name: 'Spree::HomeSection', required: true
-    belongs_to :product,
-               -> { includes :reviews },
-               class_name: 'Spree::Product',
-               required: true,
-               counter_cache: true,
-               inverse_of: :reviews
+    belongs_to :product, class_name: 'Spree::Product', required: true
   end
 end
